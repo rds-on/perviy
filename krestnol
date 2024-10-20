@@ -14,6 +14,8 @@ def check_win(mas, sign):
         return 'Win '+ sign
     if mas[0][2] == sign and mas[1][1] == sign and mas[2][0] == sign:
         return 'Win '+ sign
+    if zerous == 0:
+        return 'Draw'
     return False
 
 pygame.init()
