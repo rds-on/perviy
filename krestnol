@@ -37,6 +37,7 @@ while True:
                         mas[row][col] = 'x'
                     else:
                         mas[row][col] = 'o'
+                    query += 1
 
 
 
